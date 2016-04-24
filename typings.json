@@ -1,0 +1,15 @@
+{
+  "name": "master",
+  "version": false,
+  "dependencies": {},
+  "files": [
+    "typings/main.d.ts"
+  ],
+  "exclude": [
+    "typings/browser.d.ts"
+  ],
+  "ambientDependencies": {
+    "github-electron": "registry:dt/github-electron#0.37.6+20160417155838",
+    "node": "registry:dt/node#4.0.0+20160423143914"
+  }
+}
